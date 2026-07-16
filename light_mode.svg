@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" font-family='ui-monospace, SFMono-Regular, "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace, "Apple Color Emoji", "Segoe UI Emoji"'>
+  <title>lonely-v3n1x — profile header</title>
+  <desc>Terminal-style hero card for lonely-v3n1x. Tokyo Night light palette.</desc>
+
+  <defs>
+    <radialGradient id="glow" cx="22%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#7dcfff" stop-opacity="0.16"/>
+      <stop offset="55%" stop-color="#b39df3" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#e1e2e7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="handleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a7fff"/>
+      <stop offset="55%" stop-color="#7a4df0"/>
+      <stop offset="100%" stop-color="#d830d0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="1200" height="340" fill="#e1e2e7"/>
+  <rect width="1200" height="340" fill="url(#glow)"/>
+
+  <!-- inner panel -->
+  <rect x="18" y="18" width="1164" height="304" rx="14" ry="14" fill="#f1f2f8" stroke="#c0caf5" stroke-width="1"/>
+
+  <!-- terminal title bar -->
+  <rect x="18" y="18" width="1164" height="38" rx="14" ry="14" fill="#e6e7f0"/>
+  <rect x="18" y="44" width="1164" height="12" fill="#e6e7f0"/>
+  <line x1="18" y1="56" x2="1182" y2="56" stroke="#c0caf5" stroke-width="1"/>
+  <circle cx="42" cy="37" r="6" fill="#ff5f57"/>
+  <circle cx="62" cy="37" r="6" fill="#febc2e"/>
+  <circle cx="82" cy="37" r="6" fill="#28c840"/>
+  <text x="600" y="42" text-anchor="middle" font-size="14" fill="#6b7390">lonely-v3n1x@github: ~/profile — zsh</text>
+
+  <!-- handle -->
+  <text x="52" y="118" font-size="44" font-weight="700" fill="url(#handleGrad)" letter-spacing="-1">lonely-v3n1x</text>
+
+  <!-- tagline -->
+  <text x="54" y="150" font-size="20" fill="#2a7fff" font-weight="600">TUI &gt; GUI</text>
+
+  <!-- divider -->
+  <line x1="52" y1="172" x2="1148" y2="172" stroke="#c0caf5" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- info: two columns -->
+  <!-- left column -->
+  <text x="52" y="206" font-size="18" fill="#1a1b26">
+    <tspan fill="#3b8a1e" font-weight="700">$</tspan>
+    <tspan fill="#414868"> whoami</tspan>
+    <tspan fill="#8a90b8"> → </tspan>
+    <tspan fill="#1a1b26" font-weight="600">Dave</tspan>
+  </text>
+  <text x="52" y="236" font-size="18" fill="#1a1b26">
+    <tspan>📍 Accra, Ghana 🇬🇭</tspan>
+  </text>
+  <text x="52" y="266" font-size="18" fill="#1a1b26">
+    <tspan>🌱 Low-level Computer Systems</tspan>
+  </text>
+
+  <!-- right column -->
+  <text x="624" y="206" font-size="18" fill="#1a1b26">
+    <tspan>🛠️ </tspan>
+    <tspan fill="#2a7fff">C</tspan>
+    <tspan fill="#8a90b8"> • </tspan>
+    <tspan fill="#7a4df0">Python</tspan>
+    <tspan fill="#8a90b8"> • </tspan>
+    <tspan fill="#d830d0">TypeScript</tspan>
+  </text>
+  <text x="624" y="236" font-size="18" fill="#1a1b26">
+    <tspan>🐧 Linux / Termux / Neovim</tspan>
+  </text>
+  <text x="624" y="266" font-size="18" fill="#1a1b26">
+    <tspan>🚀 Since </tspan>
+    <tspan fill="#7a4df0" font-weight="600">2019</tspan>
+  </text>
+
+  <!-- decorative stats labels (frozen; live counts live in the README cards below) -->
+  <line x1="52" y1="290" x2="1148" y2="290" stroke="#c0caf5" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="52" y="310" font-size="13" fill="#6b7390" letter-spacing="1">
+    <tspan fill="#2a7fff">●</tspan>
+    <tspan> Followers   </tspan>
+    <tspan fill="#7a4df0">●</tspan>
+    <tspan> Public Repos   </tspan>
+    <tspan fill="#d830d0">●</tspan>
+    <tspan> Total Stars   </tspan>
+    <tspan fill="#3b8a1e">●</tspan>
+    <tspan> Since 2019</tspan>
+  </text>
+</svg>
