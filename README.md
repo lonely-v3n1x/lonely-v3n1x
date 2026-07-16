@@ -16,7 +16,7 @@ alias:      lonely-v3n1x
 based_in:   "Accra, Ghana 🇬🇭 — Africa 🌍"
 bio:        "Just a youth from Africa who is extremely interested in Tech"
 currently:
-  building:  "terminal tools in C & my TypeScript portfolio"
+  building:  "terminal tools in C "
   learning:  "Low Level Computer Systems"
 interests:  [systems / low-level, python automation, termux & android, web dev]
 philosophy: "TUI > GUI"
@@ -77,11 +77,6 @@ philosophy: "TUI > GUI"
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![Make](https://img.shields.io/badge/Make-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
 
-**`Currently Exploring`**
-
-![OS Internals](https://img.shields.io/badge/OS%20Internals-xv6-0f0f1e?style=for-the-badge&logo=linux&logoColor=7dcfff)
-![Data Science](https://img.shields.io/badge/Data%20Science-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 </div>
 
